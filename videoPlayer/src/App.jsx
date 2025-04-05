@@ -13,8 +13,8 @@ function App() {
       <Route path="/home" element={<HomeView />} />
       <Route path="/play/:id" element={<PlayVideo />} />
       <Route path="/movies" element={<Movies />} />
-      <Route path="/" element={< AnimatedLogin/>} />
-      <Route path="/register" element={< Register/>} />
+      <Route path="/" element={< Register/>} />
+      <Route path="/login" element={< AnimatedLogin/>} />
 
       </Routes>
     </BrowserRouter>

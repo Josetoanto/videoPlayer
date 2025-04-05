@@ -42,7 +42,7 @@ function HeaderComponent() {
 
         <div className="flex items-center space-x-4">
           <button 
-            onClick={() => navigate('/')}
+            onClick={() => navigate('/login')}
             className="text-gray-300 hover:bg-transparent hover:text-white px-4 py-2 text-sm cursor-pointer"
           >
             Cerrar sesión

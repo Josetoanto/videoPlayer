@@ -190,7 +190,7 @@ function Register() {
         
         <div className="mt-8">
           <p className="text-gray-500 mb-4">
-            ¿Estás registrado? <a href="/" className="text-white hover:underline">Inicia sesión</a>.
+            ¿Estás registrado? <a href="/login" className="text-white hover:underline">Inicia sesión</a>.
           </p>
         </div>
       </div>

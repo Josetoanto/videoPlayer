@@ -142,7 +142,7 @@ const NetflixLogin = () => {
         
         <div className="mt-8 text-center">
           <p className="text-gray-500 mb-4">
-            <Link to="/register" className="text-white hover:underline">¿No tienes una cuenta? Regístrate</Link>.
+            <Link to="/" className="text-white hover:underline">¿No tienes una cuenta? Regístrate</Link>.
           </p>
         </div>
       </div>
