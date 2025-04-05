@@ -52,7 +52,7 @@ function Register() {
             localStorage.setItem('userId', userData.data.id);
           }
           
-          navigate('/home');
+          navigate('/login');
         } else {
           navigate('/');
         }
