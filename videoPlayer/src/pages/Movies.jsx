@@ -28,7 +28,14 @@ function Movies() {
     }))];
 
     return (
-        <div className="bg-black min-h-screen text-white">
+        <div 
+            style={{ 
+                backgroundImage: 'url("wallpaperMiko.jpg")', 
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center' 
+            }} 
+            className="min-h-screen text-white"
+        >
             <HeaderComponent />
             
             <main className="container mx-auto px-4 pt-24 pb-8">
