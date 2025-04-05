@@ -1,13 +1,6 @@
 const moviesData = [
   
-  {
-    id: 11,
-    title: "Escandalosos",
-    genre: "Comedy",
-    imageUrl: "https://i.pinimg.com/736x/e6/7a/d6/e67ad61fa73443e5bcb25bc17c31f063.jpg",
-    video: "https://spontaneity-2025.s3.us-east-1.amazonaws.com/Aventura+culinaria+Escandalosos+Cartoon+Network.mp4"
-  },
- 
+  
   {
     id: 13,
     title: "Hora de Aventura: Tierras Lejanas",
@@ -21,13 +14,6 @@ const moviesData = [
     genre: "Comedy",
     imageUrl: "https://m.media-amazon.com/images/I/81mWbI6gvnL._AC_UF894,1000_QL80_.jpg",
     video: "https://spontaneity-2025.s3.us-east-1.amazonaws.com/The+Loud+House+Extended+Official+Opening+Theme+Song.mp4"
-  },
-  {
-    id: 12,
-    title: "Rick y Morty",
-    genre: "Comedy",
-    imageUrl: "https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    video: "https://spontaneity-2025.s3.us-east-1.amazonaws.com/Pepinillo+Rick+_+Rick+y+Morty+_+HBO+Max.mp4a"
   },
   {
     id: 8,

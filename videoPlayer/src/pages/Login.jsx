@@ -82,7 +82,7 @@ const NetflixLogin = () => {
                 id="email"
                 type="email"
                 className="form-input mt-6 w-full px-5 py-4 bg-gray-800 text-gray-200 rounded text-base focus:ring-1 focus:ring-red-600 focus:outline-none placeholder-gray-500 border-none"
-                placeholder="Email o número de teléfono"
+                placeholder="Email"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}

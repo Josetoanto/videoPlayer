@@ -38,20 +38,9 @@ function Register() {
       });
 
       if (response.status === 201) {
-        const userData = await response.json();
         
-        const authHeader = response.headers.get('Authorization');
-        const token = authHeader ? authHeader.replace('Bearer ', '') : '';
         
-        if (token) {
-          localStorage.setItem('authToken', token);
-          
-          if (userData && userData.data && userData.data.attributes) {
-            localStorage.setItem('userName', userData.data.attributes.full_name);
-            localStorage.setItem('userEmail', userData.data.attributes.email);
-            localStorage.setItem('userId', userData.data.id);
-          }
-          
+        if (response) {
           navigate('/login');
         } else {
           navigate('/');
