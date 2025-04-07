@@ -25,7 +25,7 @@ function Register() {
     }
 
     try {
-      const response = await fetch('http://127.0.0.1:3000/v1/users/', {
+      const response = await fetch('http://18.211.74.2:3000/v1/users/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
