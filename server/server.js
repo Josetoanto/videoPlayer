@@ -48,7 +48,7 @@ app.post('/v1/users/login', (req, res) => {
   res.json({ message: 'Inicio de sesión exitoso', data: user });
 });
 
-// Iniciar el servidor
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+// Iniciar el servidor (IMPORTANTE: usar 0.0.0.0)
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Servidor corriendo en http://0.0.0.0:${PORT}`);
 });
